@@ -13,7 +13,7 @@ void setup()
 }
 void draw()
 {
-  while ((endX<300)){
+  while (endX<300){
     stroke((int)(Math.random()*100),(int)(Math.random()*123+122),(int)(Math.random()*100),opacity);
     strokeWeight(size);
     endX = startX + (int)(Math.random()*18-9);
