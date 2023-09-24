@@ -2,7 +2,7 @@ int startX = 150;
 int startY = 0;
 int endX = 150;
 int endY = 0;
-int size = 3;
+int siz = 3;
 int opac = 1;
 
 void setup()
@@ -15,7 +15,7 @@ void draw()
 {
   while (endX<300){
     stroke((int)(Math.random()*100),(int)(Math.random()*123+122),(int)(Math.random()*100),opac);
-    strokeWeight(size);
+    strokeWeight(siz);
     endX = startX + (int)(Math.random()*18-9);
     endY = startY + (int)(Math.random()*9);
     line(startX,startY, endX, endY);
@@ -31,6 +31,6 @@ void mousePressed()
   startY = 0;
   endX =150;
   endY = 0;
-  size=3;
+  siz=3;
   opac=1;
 }
