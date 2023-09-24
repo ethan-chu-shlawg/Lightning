@@ -18,7 +18,7 @@ void draw()
     strokeWeight(size);
     endX = startX + (int)(Math.random()*18-9);
     endY = startY + (int)(Math.random()*9);
-    line(startX,2*startY, endX, endY/2);
+    line(startX,startY, endX, endY);
     startX = endX;
     startY = endY;
     opacity++;
