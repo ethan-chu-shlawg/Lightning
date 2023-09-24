@@ -9,7 +9,7 @@ void setup()
 {
   size(300,300);
   background(0);
-  frameRate(1000);
+  frameRate(60);
 }
 void draw()
 {
